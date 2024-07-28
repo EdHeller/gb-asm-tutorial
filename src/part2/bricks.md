@@ -28,7 +28,7 @@ Just insert this function into each of your bounce checks now.
 Make sure you don't miss any!
 It should go right **before** the momentum is modified.
 
-```diff,linenos,start={{#line_no_of "" ../../unbricked/bricks/main.asm:updated-bounce}}
+```markdown,linenos,start={{#line_no_of "" ../../unbricked/bricks/main.asm:updated-bounce}}
 BounceOnTop:
 	; Remember to offset the OAM position!
 	; (8, 16) in OAM coordinates is (0, 0) on the screen.
